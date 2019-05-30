@@ -9,7 +9,7 @@ a {
 }
 
 a:hover, a:active, a:focus {
-  color: #03c5ec;
+  color: #fff;
   outline: none;
   text-decoration: none;
 }
@@ -566,6 +566,27 @@ margin: auto;
 #services .service-description {
   margin-left: 80px;
   line-height: 24px;
+}
+
+.for-more-details {
+  justify-content: center;
+  text-align: center;
+  margin-top: 30px;
+  font-size: 15px;
+}
+
+.btn-details {
+  background: #28a745;
+  border: 2px solid #28a745;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 3px;
+}
+.btn-details:hover {
+  background: none;
+  border: 2px solid #fff;
+  color: #fff;
 }
 
 /* Subscribe Section

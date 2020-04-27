@@ -155,12 +155,12 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
-#hero .btn-services {
+#hero .btn-events {
   border: 2px solid #fff;
   color: #fff;
 }
 
-#hero .btn-services:hover {
+#hero .btn-events:hover {
   background: #16e16e;
   border: 2px solid #16e16e;
 }
@@ -508,23 +508,23 @@ margin: auto;
   margin-bottom: 0;
 }
 
-/* Services Section
+/* events Section
 --------------------------------*/
-#services {
+#events {
   background: #181818 fixed center center;
   background-size: cover;
   padding: 80px 0 60px 0;
 }
 
-#services .service-item {
+#events .service-item {
   margin-bottom: 20px;
 }
 
-#services-title, #schedule-title {
+#events-title, #schedule-title {
   color: #fff;
 }
 
-#services .service-icon {
+#events .service-icon {
   float: left;
   background: #16E16E;
   padding: 16px;
@@ -533,31 +533,31 @@ margin: auto;
   border: 1px solid #16E16E;
 }
 
-#services .service-icon i {
+#events .service-icon i {
   color: #fff;
   font-size: 24px;
 }
 
-#services .service-item:hover .service-icon {
+#events .service-item:hover .service-icon {
   background: #fff;
 }
 
-#services .service-item:hover .service-icon i {
+#events .service-item:hover .service-icon i {
   color: #16E16E;
 }
 
-#services .service-title {
+#events .service-title {
   margin-left: 80px;
   font-weight: 700;
   margin-bottom: 15px;
   text-transform: uppercase;
 }
 
-#services .service-title a {
+#events .service-title a {
   color: #111;
 }
 
-#services .service-description {
+#events .service-description {
   margin-left: 80px;
   line-height: 24px;
 }
@@ -858,6 +858,14 @@ h5 {
   border-radius: 50%;
   display: block;
   margin: auto;
+}
+
+.our-team > .pic > i {
+  font-size: 100px;
+}
+
+.our-team > .pic {
+  text-align: center;
 }
 
 .our-team > .description{
